@@ -18,7 +18,7 @@ Etapa 2
 
 * Léxico del Algoritmo. a, b ∈ Z
 
-* Representación del Algoritmo 
+* Representación textual del Algoritmo 
 
     - Leer un entero y almacenarlo en a.
     - Leer otro entero y almacenarlo en b.
