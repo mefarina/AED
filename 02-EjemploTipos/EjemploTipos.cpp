@@ -1,4 +1,4 @@
-/* Tipos
+/* Ejemplos de tipos de datos
 Melissa Farina
 20190502
 */
