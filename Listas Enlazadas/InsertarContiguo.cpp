@@ -10,11 +10,9 @@ void insert(Lista& lista, unsigned index, double valor){
     aux_a = lista.arreglo;
     
     lista.arreglo[index] = valor;
-
     lista.posicion++;
     
     for( ; index < 5 - 1; index++){
         lista.arreglo.at(index + 1) = aux_a.at(index); 
-    } 
-    
+    }     
 }
