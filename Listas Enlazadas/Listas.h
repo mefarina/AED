@@ -5,4 +5,3 @@ struct Lista {
 };
 
 void Insert(Lista&, unsigned, int);
-void Remove(Lista&, unsigned);
