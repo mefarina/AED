@@ -6,7 +6,7 @@ struct Lista{
 };
 
 void insert(Lista& lista, unsigned index, double valor){
-    std::array<double, 5> aux_a{0};
+    std::array<double, 5> aux_a = 0;
     aux_a = lista.arreglo;
     
     lista.arreglo[index] = valor;
