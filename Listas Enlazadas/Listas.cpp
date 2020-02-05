@@ -7,8 +7,8 @@ struct Nodo{
 
 void Insert(Lista& lista, unsigned index, int valor){
         Nodo* actual = lista.primero;
-        Nodo* anterior = new Nodo;
-        Nodo* nuevoNodo = nullptr;      
+        Nodo* anterior = nullptr;
+        Nodo* nuevoNodo = new Nodo();      
 
         for(int i = 0; i <= index; i++){
             actual = anterior;
